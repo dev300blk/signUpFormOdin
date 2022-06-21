@@ -36,7 +36,11 @@ body {
 .dummyText {
     display: flex;
     flex: 1;
+    justify-content: center;
+    text-align: left;
     background-color: bisque;
+    padding: .5rem;
+    margin: 1rem;
 }
 
 form {
@@ -44,14 +48,17 @@ form {
     flex-direction: column;
     flex: 2;
     flex-wrap: wrap;
-    background-color: blueviolet;
+    margin: .5rem;
+    padding: .5rem;
 }
-.form{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    height: 25%;
+.input {
+   display: flex;
+   flex-direction: column;
+   margin: .5rem ;
+   padding: .5rem;
 }
+
+
 
 .container_banner{
     display: flex;
@@ -59,8 +66,19 @@ form {
 }
 .container_input{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+
+
+.submit1{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    margin: .25rem ;
+    padding: .5rem;
 }
 
 .footer {
