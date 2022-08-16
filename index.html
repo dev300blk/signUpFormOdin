@@ -5,73 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <div class="left_main">
-        <img class="left-image" src="images/left.jpeg" alt="">
-
-        <div class="logo-background">
-            <img src="" alt="">
+    <div class="container">
+        <div class="col-1">
+            <img class="left-image" src="images/left.jpeg" alt="">
+            <div class="logo-backgroung">
+                <img class="odin" src="images/odin.png" alt="" srcset="">
+            </div>
         </div>
-
-    </div>
-    <div class="right_main">
-        <div class="dummyText">
-            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio numquam corporis qui quo rem
-                labore aspernatur molestiae cumque odit laudantium esse, voluptate fuga nisi placeat reiciendis sapiente
-                repellendus earum ullam.</p>
-        </div>
-
-
-        <form action="">
-            <div class="container_banner">
-                <h3>Sign Up Here</h3>
+        <div class="col-2">
+            <div class="row1">
+                <p class="dummy-text">This is not a real service! You know you need something like this in your life to
+                    help you realize your deepest dreams. Signup now to get started.</p>
+                <p class="dummy2">You know you want to.</p>
             </div>
-            <div class="container_input">
-                <div class="input left">
-                    <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="first_name" placeholder="First">
-                </div>
+            <div class="row2">
+                <form action="" method="post">
+                    <p class="formPara">Let's Do This!</p>
+                    <div class="card">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="firstName" id="firstName">
+                    </div>
+                    <div class="card">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="lastName">
+                    </div>
+                    <div class="card">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="card">
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="tel" name="phoneNumber" id="phoneNumber">
+                    </div>
+                    <div class="card"  >
+                        <label for="password1">PASSWORD</label>
+                        <input class="password1" type="password" name="password1"  id="password1">
+                    </div>
+                    <div class="card"   >
+                        <label for="password2">CONFIRM PASSWORD</label>
+                        <input class="password2" type="password" name="password2" id="password2">
+                    </div>
 
-                <div class="input right">
-                    <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Last">
-                </div>
+                    <button id="submit" type="submit">Create Account</button>
+                </form>
 
-                <div class="input left">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="you@example.com">
-                </div>
+                <p class="log-in">Already have an account?<span>Log in</span></p>
 
-                <div class="input right">
-                    <label for="phone_number">Phone Number</label>
-                    <input type="tel" name="phone_number" id="phone_number">
-                </div>
-
-                <div class="input left">
-                    <label for="user_password">Passord</label>
-                    <input type="password" name="password" id="user_password">
-                </div>
-                <div class="input right">
-                    <label for="confirmed">Confirm Password</label>
-                    <input type="password" name="password" id="confirmed">
-                </div>
             </div>
-            <div class="button">
-                <button class="submit1">Submit</button>
-            </div>
-
-        </form>
-        <div class="footer">
-            1
+            <div class="row3"></div>
         </div>
     </div>
 
 
+    <script src="script.js"></script>
 </body>
 
 </html>
